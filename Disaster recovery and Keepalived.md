@@ -4,7 +4,7 @@
  nc -vz 127.0.0.1 80 && test -s /var/www/html/index.nginx-debian.html
 
 # /etc/keepalived/keepalived.conf
-```
+```Bash
 global_defs {
 enable_script_security
 }
