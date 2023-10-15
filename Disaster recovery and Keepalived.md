@@ -7,13 +7,11 @@
 global_defs {
 enable_script_security
 }
-
 vrrp_script nginx_check {
 script "/usr/bin/keepalived-script"
 interval 3
 user keepalived_script
 }
-
 vrrp_instance VI_1 {
         state MASTER
         interface enp0s3
@@ -27,7 +25,6 @@ vrrp_instance VI_1 {
 track_script {
 nginx_check
 }
-
 }
 
 ![Скрин 1](https://github.com/MalovAleksey/DZ/blob/main/2023-10-15_10-25-06.png)
