@@ -4,6 +4,7 @@
  nc -vz 127.0.0.1 80 && test -s /var/www/html/index.nginx-debian.html
 
 # /etc/keepalived/keepalived.conf
+'''
 global_defs {
 enable_script_security
 }
@@ -26,6 +27,6 @@ track_script {
 nginx_check
 }
 }
-
+'''
 ![Скрин 1](https://github.com/MalovAleksey/DZ/blob/main/2023-10-15_10-25-06.png)
 ![Скрин 1](https://github.com/MalovAleksey/DZ/blob/main/2023-10-15_10-25-31.png)
