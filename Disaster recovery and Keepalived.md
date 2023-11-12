@@ -8,8 +8,10 @@
 На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 # Ответ.
-![Скрин 1](https://github.com/MalovAleksey/DZ/blob/main/2023-11-09_09-29-46.png)
-![Скрин 2](https://github.com/MalovAleksey/DZ/blob/main/2023-11-09_09-29-57.png)
+![Скрин 1](https://github.com/MalovAleksey/DZ/blob/main/2023-11-12_15-23-45.png))
+![Скрин 2](https://github.com/MalovAleksey/DZ/blob/main/2023-11-12_15-24-46.png)
+![Скрин 2](https://github.com/MalovAleksey/DZ/blob/main/2023-11-12_15-27-16.png)
+![Скрин 2](https://github.com/MalovAleksey/DZ/blob/main/2023-11-12_15-59-06.png)
 
 
 # Задание 2
