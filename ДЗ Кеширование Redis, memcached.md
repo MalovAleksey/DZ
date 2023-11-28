@@ -11,10 +11,10 @@
 
 ### Задание 2. Memcached
 Установите и запустите memcached.
+Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
 
 #### Ответ.
-
-Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
+![Скриншот 1](https://github.com/MalovAleksey/DZ/blob/main/Memcached-1.png)
 
 ### Задание 3. Удаление по TTL в Memcached
 Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
@@ -22,6 +22,8 @@
 Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.
 
 #### Ответ.
+
+![Скриншот 2](https://github.com/MalovAleksey/DZ/blob/main/Memcached-2.png)
 
 ### Задание 4. Запись данных в Redis
 Запишите в Redis несколько ключей с любыми именами и значениями.
