@@ -8,7 +8,7 @@
 
 ### Ответ.
 
-![Скриншот 1](https://github.com/MalovAleksey/DZ/blob/main/Rebbit_1.png)
+![Скриншот 1](https://github.com/MalovAleksey/DZ/blob/main/Rabbit_1.png)
 
 ### Задание 2. Отправка и получение сообщений
 
