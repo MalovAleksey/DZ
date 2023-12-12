@@ -23,6 +23,8 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
+### Ответ
+
 ![Скриншот 2](https://github.com/MalovAleksey/DZ/blob/main/Rabbit-2.png)
 
 ![Скриншот 3](https://github.com/MalovAleksey/DZ/blob/main/Rabbit-3.png)
