@@ -29,7 +29,7 @@ $ pip install pika
 
 ![Скриншот 3](https://github.com/MalovAleksey/DZ/blob/main/Rabbit-3.png)
 
-![Скриншот 3](https://github.com/MalovAleksey/DZ/blob/main/Rabbit-4.png)
+![Скриншот 4](https://github.com/MalovAleksey/DZ/blob/main/Rabbit-4.png)
 
 ### Задание 3. Подготовка HA кластера
 
@@ -55,3 +55,20 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
+
+### Ответ.
+
+![Скриншот 5](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_15-58-01.png)
+
+![Скриншот 6](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_15-58-31.png)
+
+![Скриншот 7](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_15-58-41.png)
+
+![Скриншот 8](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_16-53-32.png)
+
+![Скриншот 9](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_16-53-45.png)
+
+![Скриншот 10](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_17-39-10.png)
+
+![Скриншот 11](https://github.com/MalovAleksey/DZ/blob/main/Rabbit/2023-12-17_17-45-37.png)
+
