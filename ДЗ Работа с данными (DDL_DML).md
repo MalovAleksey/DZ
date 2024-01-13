@@ -25,8 +25,15 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
 #### Ответ.
+![Скриншот 1](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
 
+![Скриншот 2](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_15-04-24.png)
 
+![Скриншот 3](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_15-29-01.png)
+
+![Скриншот 4](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_15-32-24.png)
+
+![Скриншот 5](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-13_16-12-18.png)
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
