@@ -45,6 +45,7 @@ customer         | customer_id
 
 #### Ответ.
 
+![image](https://github.com/MalovAleksey/DZ/assets/128486566/cb03555b-ce53-466c-abcd-a98aff57b3cb)
 
 
 ### Задание 3*
