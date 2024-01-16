@@ -20,7 +20,15 @@ WHERE district LIK 'K%a' AND district NOT LIKE '% %';
 
 ### Ответ.
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
+```SQL
+
+SELECT amount, CAST(payment_date AS DATE)
+FROM payment p
+WHERE amount > 10 AND DATE(payment_date) >= '2005-06-15' AND DATE(payment_date) <= '2005-06-18';
+
+```
+
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_12-26-42.png)
 
 ## Задание 3
 Получите последние пять аренд фильмов.
