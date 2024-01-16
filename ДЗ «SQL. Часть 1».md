@@ -7,7 +7,7 @@
 
 ```SQL
 
-SELECT DISTINCT disttrict
+SELECT DISTINCT district
 FROM address a
 WHERE district LIK 'K%a' AND district NOT LIKE '% %';
 
