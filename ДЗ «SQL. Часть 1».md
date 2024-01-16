@@ -35,7 +35,16 @@ WHERE amount > 10 AND DATE(payment_date) >= '2005-06-15' AND DATE(payment_date) 
 
 ### Ответ.
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
+```SQL
+
+SELECT *
+FROM rental r
+ORDER BY rental_id DESC
+LIMIT 5;
+
+```
+
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_13-58-27.png)
 
 ## Задание 4
 Одним запросом получите активных покупателей, имена которых Kelly или Willie.
