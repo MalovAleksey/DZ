@@ -5,7 +5,15 @@
 
 ### Ответ.
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
+```SQL
+
+SELECT DISTINCT disttrict
+FROM address a
+WHERE district LIK 'K%a' AND district NOT LIKE '% %';
+
+```
+
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_11-00-09.png)
 
 ## Задание 2
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
