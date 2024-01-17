@@ -54,21 +54,16 @@ LIMIT 5;
 все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
 замените буквы 'll' в именах на 'pp'.
 
+```SQL
+
+SELECT LOWER(INSERT(first_name, 3, 2, 'pp')) AS first_name, LOWER(last_name) AS last_name, active
+FROM customer c
+WHERE first_name LIK 'Kelly' OR first_name LIKE 'Willie' AND active = 1;
+
+``
 
 ### Ответ.
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-17_09-42-50.png)
 
-## Задание 5*
-Выведите Email каждого покупателя, разделив значение Email на две отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй — значение, указанное после @.
 
-### Ответ.
-
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
-
-## Задание 6*
-Доработайте запрос из предыдущего задания, скорректируйте значения в новых колонках: первая буква должна быть заглавной, остальные — строчными.
-
-### Ответ.
-
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-12_13-18-53.png)
