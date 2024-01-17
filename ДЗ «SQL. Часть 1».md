@@ -62,7 +62,7 @@ SELECT LOWER(INSERT(first_name, 3, 2, 'pp')) AS first_name, LOWER(last_name) AS 
 FROM customer c
 WHERE first_name LIKE 'Kelly' OR first_name LIKE 'Willie' AND active = 1;
 
-``
+```
 
 ![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-17_09-42-50.png).
 
