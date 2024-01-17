@@ -54,6 +54,8 @@ LIMIT 5;
 все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
 замените буквы 'll' в именах на 'pp'.
 
+### Ответ.
+
 ```SQL
 
 SELECT LOWER(INSERT(first_name, 3, 2, 'pp')) AS first_name, LOWER(last_name) AS last_name, active
@@ -62,8 +64,6 @@ WHERE first_name LIKE 'Kelly' OR first_name LIKE 'Willie' AND active = 1;
 
 ``
 
-### Ответ.
-
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-17_09-42-50.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-17_09-42-50.png).
 
 
