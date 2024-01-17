@@ -58,7 +58,7 @@ LIMIT 5;
 
 SELECT LOWER(INSERT(first_name, 3, 2, 'pp')) AS first_name, LOWER(last_name) AS last_name, active
 FROM customer c
-WHERE first_name LIK 'Kelly' OR first_name LIKE 'Willie' AND active = 1;
+WHERE first_name LIKE 'Kelly' OR first_name LIKE 'Willie' AND active = 1;
 
 ``
 
