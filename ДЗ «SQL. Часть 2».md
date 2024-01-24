@@ -9,7 +9,7 @@
 
 ```
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_11-00-09.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-24_12-41-38.png)
 
 ## Задание 2
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
