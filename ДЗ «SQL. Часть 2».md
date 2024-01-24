@@ -7,6 +7,20 @@
 ## Ответ
 ```SQL
 
+SELECT *
+FROM customer c  
+
+SELECT CONCAT(first_name, ' ', last_name) AS ФИО  , c.city, Клиентов 
+FROM staff s 
+join 
+	(select store_id , COUNT(store_id) AS Клиентов
+	 From customer c  
+		GROUP BY store_id) AS  t1 ON s.store_id = t1.store_id
+join
+	address a on s.address_id = a.address_id 
+JOIN 
+	city c ON a.city_id = c.city_id
+
 ```
 
 ![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-24_12-41-38.png)
