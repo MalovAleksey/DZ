@@ -33,6 +33,10 @@ JOIN
 
 ```SQL
 
+SELECT COUNT(1)
+FROM film f
+where length > (SELECT AVG(length) FROM film f);
+
 ```
 
 ![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_11-00-09.png)
