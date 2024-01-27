@@ -48,6 +48,11 @@ where length > (SELECT AVG(length) FROM film f);
 
 ```SQL
 
+SELECT MONTH(payment_date) as месяц , sum(amount) as сумма, SUM(rental_id) as аренд 
+FROM payment p 
+GROUP BY MONTH (payment_date)
+ORDER BY сумма DESC
+
 ```
 
 ![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_11-00-09.png)
