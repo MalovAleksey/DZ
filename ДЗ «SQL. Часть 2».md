@@ -39,7 +39,7 @@ where length > (SELECT AVG(length) FROM film f);
 
 ```
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-16_11-00-09.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-27_17-33-47.png)
 
 ## Задание 3
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
