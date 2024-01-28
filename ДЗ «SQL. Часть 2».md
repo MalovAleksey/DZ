@@ -51,9 +51,9 @@ where length > (SELECT AVG(length) FROM film f);
 
 ```SQL
 
-SELECT MONTH(payment_date) as месяц , sum(amount) as сумма, SUM(rental_id) as аренд 
+SELECT MONTH(payment_date) as месяц , YEAR(payment_date) AS Год, sum(amount) as сумма, SUM(rental_id) as аренд 
 FROM payment p 
-GROUP BY MONTH (payment_date)
+GROUP BY MONTH(payment_date) , YEAR(payment_date)
 ORDER BY сумма DESC
 
 ```
