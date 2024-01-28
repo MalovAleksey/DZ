@@ -58,4 +58,4 @@ ORDER BY сумма DESC
 
 ```
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-27_18-23-31.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-28_14-16-15.png)
