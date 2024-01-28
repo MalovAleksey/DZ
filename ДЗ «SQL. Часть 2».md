@@ -22,10 +22,11 @@ join
 	address a on s.address_id = a.address_id 
 JOIN 
 	city c ON a.city_id = c.city_id
+WHERE Клиентов > 300;
 
 ```
 
-![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-24_12-41-38.png)
+![скрин](https://github.com/MalovAleksey/DZ/blob/main/MySQL/2024-01-28_13-46-49.png)
 
 ## Задание 2
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
